@@ -26,6 +26,7 @@ test_set <- rbind(gt_2014,gt_2015)
 describe(training_set) 
 
 # Histogram of features 
+par(mar=c(5.1,4.1,4.1,2.1))
 hist(training_set)
 
 # Box Plot of features before Scaling 
